@@ -13,3 +13,10 @@ C:\Users\minkook.kang\Documents\HellowWorld\obj\Debug\net6.0\refint\HellowWorld.
 C:\Users\minkook.kang\Documents\HellowWorld\obj\Debug\net6.0\HellowWorld.pdb
 C:\Users\minkook.kang\Documents\HellowWorld\obj\Debug\net6.0\HellowWorld.genruntimeconfig.cache
 C:\Users\minkook.kang\Documents\HellowWorld\obj\Debug\net6.0\ref\HellowWorld.dll
+C:\Users\minkook.kang\Documents\HellowWorld\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\minkook.kang\Documents\HellowWorld\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\minkook.kang\Documents\HellowWorld\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\minkook.kang\Documents\HellowWorld\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\minkook.kang\Documents\HellowWorld\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\minkook.kang\Documents\HellowWorld\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\minkook.kang\Documents\HellowWorld\obj\Debug\net6.0\HellowWorld.csproj.CopyComplete
