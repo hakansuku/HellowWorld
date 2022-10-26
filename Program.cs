@@ -33,38 +33,42 @@ namespace HelloWorld
             // Open the connection in a try/catch block.
             // Create and execute the DataReader, writing the result
             // set to the console window.
-            try
+            while(true)
             {
+                try
+                {
                 connection.Open();
                 SqlDataReader reader = command.ExecuteReader();
-                while (reader.Read())
+                Random r = new Random();
+                int rInt = r.Next(0, 295);
+                
+                for(int i = 0; i < rInt; i++)
                 {
+                    reader.Read();
                     Console.WriteLine("\t{0}\t{1}\t{2}",
                         reader[0], reader[1], reader[2]);
                         rows++;
                 }
                 reader.Close();
+                connection.Close();
+                
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
+            
             Console.WriteLine(rows+" records fetched");
-            Console.ReadLine();
+            rows=0;
+            Thread.Sleep(60000);
+            }
             
         }
 
 
 
-            /*
-            int i=0;
-            while(true)
-            {
-            Console.WriteLine("Hello World! {0}",i);
-            i++;
-            Thread.Sleep(2000);
-            }
-            */
+
+
         }
         
     }
